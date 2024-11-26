@@ -1,0 +1,16 @@
+{
+  "config": {
+    "classmap-authoritative": true
+  },
+  "autoload": {
+    "psr-4": {
+      "EWORX\\iTop\\Extension\\": "src"
+    }
+  },
+  "name": "eworx/eworx-pc-class-extra-fields",
+  "type": "itop-extension",
+  "description": "EWORX PC Class extra fields (EWX-669)",
+  "require": {
+    "composer-runtime-api": "^2.0"
+  }
+}
