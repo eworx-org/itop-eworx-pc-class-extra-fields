@@ -3,7 +3,7 @@
   <extension_code>eworx-pc-class-extra-fields</extension_code>
   <version>1.0.0</version>
   <label><![CDATA[EWORX PC Class extra fields (EWX-669)]]></label>
-  <description><![CDATA[Put here a longer description of your extension]]></description>
+  <description><![CDATA[Extends the PC Class with extra fields so the legacy XLS can be mapped on iTop]]></description>
   <mandatory>false</mandatory>
-  <more_info_url></more_info_url>
+  <more_info_url>https://jira.eworx.gr/browse/EWX-669</more_info_url>
 </extension>
