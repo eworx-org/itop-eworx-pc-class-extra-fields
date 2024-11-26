@@ -15,7 +15,7 @@ SetupWebPage::AddModule(
 		// Setup
 		//
 		'dependencies' => array(
-			
+			'itop-storage-mgmt/3.2.0',
 		),
 		'mandatory' => false,
 		'visible' => true,

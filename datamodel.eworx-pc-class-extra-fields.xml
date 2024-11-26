@@ -3,6 +3,48 @@
   <constants>
   </constants>
   <classes>
+    <class id="PC" _delta="must_exist">
+      <fields>
+        <field id="bicycle" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>bicycle</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="wheel" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>wheel</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="stem" xsi:type="AttributeText" _delta="define_if_not_exists">
+          <sql>stem</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+      </fields>
+      <presentation>
+        <details>
+          <items>
+            <item id="col:col1" _delta="must_exist">
+              <items>
+                <item id="fieldset:Server:moreinfo" _delta="must_exist">
+                  <items>
+                    <item id="bicycle">
+                      <rank>150</rank>
+                    </item>
+                    <item id="wheel">
+                      <rank>160</rank>
+                    </item>
+                    <item id="stem">
+                      <rank>170</rank>
+                    </item>
+                  </items>
+                </item>
+              </items>
+            </item>
+          </items>
+        </details>
+      </presentation>
+    </class>
   </classes>
   <menus>
   </menus>
