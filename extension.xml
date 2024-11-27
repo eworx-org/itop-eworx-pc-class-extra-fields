@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension format="1.0">
-  <extension_code>eworx-pc-class-extra-fields</extension_code>
+  <extension_code>eworx-pc-class</extension_code>
   <version>1.0.0</version>
-  <label><![CDATA[EWORX PC Class extra fields (EWX-669)]]></label>
-  <description><![CDATA[Extends the PC Class with extra fields so the legacy XLS can be mapped on iTop]]></description>
+  <label><![CDATA[EWORX PC Class (EWX-669)]]></label>
+  <description><![CDATA[Modifies and extends the PC Class so the legacy XLS can be mapped on iTop]]></description>
   <mandatory>false</mandatory>
   <more_info_url>https://jira.eworx.gr/browse/EWX-669</more_info_url>
 </extension>

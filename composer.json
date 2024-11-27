@@ -7,9 +7,9 @@
       "EWORX\\iTop\\Extension\\": "src"
     }
   },
-  "name": "eworx/eworx-pc-class-extra-fields",
+  "name": "eworx/eworx-pc-class",
   "type": "itop-extension",
-  "description": "EWORX PC Class extra fields (EWX-669)",
+  "description": "EWORX PC Class (EWX-669)",
   "require": {
     "composer-runtime-api": "^2.0"
   }
