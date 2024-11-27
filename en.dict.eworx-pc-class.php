@@ -14,5 +14,7 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:PC/Attribute:wheel+' => '',
 	'Class:PC/Attribute:stem' => 'Stem',
 	'Class:PC/Attribute:stem+' => 'Please include info about bars diameter, offset etc',
+	'Class:PC/Attribute:history' => 'History (changes etc)',
+	'Class:PC/Attribute:history+' => 'Anything specific to H/W changes and maintenance to this device',
 ));
 ?>
