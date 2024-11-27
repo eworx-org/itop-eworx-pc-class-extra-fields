@@ -5,23 +5,123 @@
   <classes>
     <class id="PC" _delta="must_exist">
       <fields>
-        <field id="ewx_bicycle" xsi:type="AttributeString" _delta="define_if_not_exists">
-          <sql>ewx_bicycle</sql>
+        <field id="ewx_user" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_user</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
-        <field id="ewx_wheel" xsi:type="AttributeString" _delta="define_if_not_exists">
-          <sql>ewx_wheel</sql>
+        <field id="ewx_plug" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_plug</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
-        <field id="ewx_stem" xsi:type="AttributeText" _delta="define_if_not_exists">
-          <sql>ewx_stem</sql>
+        <field id="ewx_model_text" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_model_text</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_os_genuine" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_os_genuine</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_os_comments" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_os_comments</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_chipset" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_chipset</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_ram_type" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_ram_type</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_ram_slots" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_ram_slots</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_motherboard" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_motherboard</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_graphics" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_graphics</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_hd" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_hd</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_ssd" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_ssd</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_keyboard" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_keyboard</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_monitor_1" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_monitor_1</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_monitor_2" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_monitor_2</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_monitor_3" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_monitor_3</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_psu" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_psu</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_antivirus" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_antivirus</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_office" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_office</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_product_key" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_product_key</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_invoice_number" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_invoice_number</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_supplier" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_supplier</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
         <field id="ewx_history" xsi:type="AttributeText" _delta="define_if_not_exists">
           <sql>ewx_history</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="ewx_pending_notes" xsi:type="AttributeText" _delta="define_if_not_exists">
+          <sql>ewx_pending_notes</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
@@ -31,16 +131,85 @@
           <items>
             <item id="col:col1" _delta="must_exist">
               <items>
+                <item id="fieldset:Server:baseinfo" _delta="must_exist">
+                  <items>
+                    <!-- move this existing field at the top -->
+                    <item id="asset_number">
+                      <rank>15</rank>
+                    </item>
+                    <item id="ewx_user">
+                      <rank>45</rank>
+                    </item>
+                    <item id="ewx_plug">
+                      <rank>100</rank>
+                    </item>
+                  </items>
+                </item>
+              </items>
+            </item>
+            <item id="col:col1" _delta="must_exist">
+              <items>
                 <item id="fieldset:Server:moreinfo" _delta="must_exist">
                   <items>
-                    <item id="ewx_bicycle">
-                      <rank>150</rank>
+                    <item id="ewx_model_text">
+                      <rank>22</rank>
                     </item>
-                    <item id="ewx_wheel">
-                      <rank>160</rank>
+                    <item id="ewx_os_genuine">
+                      <rank>45</rank>
                     </item>
-                    <item id="ewx_stem">
-                      <rank>170</rank>
+                    <item id="ewx_os_comments">
+                      <rank>47</rank>
+                    </item>
+                    <item id="ewx_chipset">
+                      <rank>65</rank>
+                    </item>
+                    <item id="ewx_ram_type">
+                      <rank>75</rank>
+                    </item>
+                    <item id="ewx_ram_slots">
+                      <rank>77</rank>
+                    </item>
+                    <item id="ewx_motherboard">
+                      <rank>200</rank>
+                    </item>
+                    <item id="ewx_graphics">
+                      <rank>210</rank>
+                    </item>
+                    <item id="ewx_hd">
+                      <rank>220</rank>
+                    </item>
+                    <item id="ewx_ssd">
+                      <rank>230</rank>
+                    </item>
+                    <item id="ewx_keyboard">
+                      <rank>240</rank>
+                    </item>
+                    <item id="ewx_monitor_1">
+                      <rank>250</rank>
+                    </item>
+                    <item id="ewx_monitor_2">
+                      <rank>260</rank>
+                    </item>
+                    <item id="ewx_monitor_3">
+                      <rank>270</rank>
+                    </item>
+                    <item id="ewx_psu">
+                      <rank>280</rank>
+                    </item>
+                    <item id="ewx_antivirus">
+                      <rank>290</rank>
+                    </item>
+                    <item id="ewx_office">
+                      <rank>300</rank>
+                    </item>
+                    <item id="ewx_product_key">
+                      <rank>310</rank>
+                    </item>
+                    <item id="ewx_invoice_number">
+                      <rank>320</rank>
+                    </item>
+                    <item id="ewx_supplier">
+                      <rank>330</rank>
                     </item>
                   </items>
                 </item>
@@ -51,7 +220,14 @@
                 <item id="fieldset:Server:otherinfo" _delta="must_exist">
                   <items>
                     <item id="ewx_history">
-                      <rank>170</rank>
+                      <rank>100</rank>
+                    </item>
+                  </items>
+                </item>
+                <item id="fieldset:Server:otherinfo" _delta="must_exist">
+                  <items>
+                    <item id="ewx_pending_notes">
+                      <rank>110</rank>
                     </item>
                   </items>
                 </item>
