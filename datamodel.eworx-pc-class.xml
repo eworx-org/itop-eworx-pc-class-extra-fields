@@ -5,23 +5,23 @@
   <classes>
     <class id="PC" _delta="must_exist">
       <fields>
-        <field id="bicycle" xsi:type="AttributeString" _delta="define_if_not_exists">
-          <sql>bicycle</sql>
+        <field id="ewx_bicycle" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_bicycle</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
-        <field id="wheel" xsi:type="AttributeString" _delta="define_if_not_exists">
-          <sql>wheel</sql>
+        <field id="ewx_wheel" xsi:type="AttributeString" _delta="define_if_not_exists">
+          <sql>ewx_wheel</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
-        <field id="stem" xsi:type="AttributeText" _delta="define_if_not_exists">
-          <sql>stem</sql>
+        <field id="ewx_stem" xsi:type="AttributeText" _delta="define_if_not_exists">
+          <sql>ewx_stem</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
-        <field id="history" xsi:type="AttributeText" _delta="define_if_not_exists">
-          <sql>history</sql>
+        <field id="ewx_history" xsi:type="AttributeText" _delta="define_if_not_exists">
+          <sql>ewx_history</sql>
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
@@ -33,13 +33,13 @@
               <items>
                 <item id="fieldset:Server:moreinfo" _delta="must_exist">
                   <items>
-                    <item id="bicycle">
+                    <item id="ewx_bicycle">
                       <rank>150</rank>
                     </item>
-                    <item id="wheel">
+                    <item id="ewx_wheel">
                       <rank>160</rank>
                     </item>
-                    <item id="stem">
+                    <item id="ewx_stem">
                       <rank>170</rank>
                     </item>
                   </items>
@@ -50,7 +50,7 @@
               <items>
                 <item id="fieldset:Server:otherinfo" _delta="must_exist">
                   <items>
-                    <item id="history">
+                    <item id="ewx_history">
                       <rank>170</rank>
                     </item>
                   </items>
